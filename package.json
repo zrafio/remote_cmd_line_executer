@@ -1,18 +1,11 @@
 {
-  "name": "securewebcmd",
+  "name": "remote-cmd-line-executer",
   "version": "9.3.1",
   "description": "Run commands on a linux server through a nodejs server",
   "main": "cmd.js",
   "scripts": {
-    "start": "nodejs cmd.js",
-    "securewebcmd": "nodejs cmd.js"
-  },
-  "bin": {
-    "securewebcmd": "./bin/securewebcmd"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/hughperkins/securewebcmd.git"
+    "start": "node cmd.js",
+    "securewebcmd": "node cmd.js"
   },
   "keywords": [
     "web",
@@ -34,10 +27,5 @@
     "jquery": "~1.11.2",
     "prompt": "~0.2.14",
     "string.prototype.endswith": "^0.2.0"
-  },
-  "author": "Hugh Perkins",
-  "license": "MPL",
-  "bugs": {
-    "url": "https://github.com/hughperkins/securewebcmd/issues"
   }
 }
